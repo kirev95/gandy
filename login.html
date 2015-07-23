@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <!-- <div class="container">
       <form role="form">
         <div class="icon-wrapper">
           <i class="fa fa-user fa-5x" clearfix></i>
@@ -38,8 +38,31 @@
 
         <a href="#" class="pull-right forgot-password">Forgot password? </a>      
       </form>
+    </div> -->
+
+
+    <div class="container header">
+      <img id="logo" src="images/gandys-logo.jpg" alt="Gandys Logo">
     </div>
 
+    <div class="container logincard">
+      <div class="card">
+        <div id="loginIcon">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+          </span>
+        </div>
+        <form class="signin" method = "post" action = "">
+          <label for="username" class="sr-only">Username</label>
+          <input type="text" id="username" name = "username" class="form-control" placeholder="Username" required autofocus value size="25">
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" id="password" name = "password" class="form-control" placeholder="Password" required value size="25">
+
+          <input class="btn btn-lg btn-primary btn-block" value="Sign in" name="submit" type="submit">
+        </form>
+      </div>
+    </div>
 
     <!-- Javascript include section -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
