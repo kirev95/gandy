@@ -1,0 +1,64 @@
+/* Another good background color is: #141414; */
+
+body {
+	font-family:'Roboto', sans-serif;
+}
+
+.userDetails {
+	margin-right: 200px;
+}
+
+.userIcon {
+	width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.userIcon-circle {
+	font-size: 50px;
+}
+
+.userName{
+	color:white;
+}
+
+.navbar-color{
+	background-color:#6D686B;
+}
+
+.navbar-toggle.navbar-toggle-border-color {
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+	-webkit-transition: background-color 1s; 
+	transition:background-color 1s;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color:#474747;
+	-webkit-transition: background-color 1s;
+	transition:background-color 1s;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+ .navbar-inverse .navbar-nav>.active>a:focus,
+  .navbar-inverse .navbar-nav>.active>a:hover {
+  	background-color:#333;
+  	-webkit-transition: background-color 1s; 
+	transition:background-color 1s;
+}
+
+.fa-user{
+	color:white;
+	-webkit-transition: color 1s;
+	transition:color 1s;
+}
+
+.fa-user:hover{
+	color:#6DC2E9;
+	-webkit-transition: color 1s; 
+	transition:color 1s;
+}
