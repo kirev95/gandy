@@ -1,0 +1,44 @@
+.formFormat {
+	overflow: auto;
+}
+
+.formFormat h4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.formFormat i {
+	color: #6D686B;
+}
+
+.designForm {
+	top: 50px;
+	position: relative;
+}
+
+.checkboxCreateDesignPage {
+	height: 59px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.checkboxCreateDesignPage input[type=checkbox] {
+	margin-left: 10px;
+	position: relative;
+}
+
+.checkboxCreateDesignPage label {
+	padding-left: 0px;
+	font-weight: 600;
+}
+
+.createButton {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.withBottomBorder {
+	border-bottom-style: solid;
+	border-width: 0 0 1px;
+    border-color: #6D686B;
+}
