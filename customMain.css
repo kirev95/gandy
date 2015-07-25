@@ -26,7 +26,7 @@ body {
 	background-color:#6D686B;
 }
 
-.navbar-toggle.navbar-toggle-border-color {
+.navbar-toggle .navbar-toggle-border-color {
 	border-color: transparent;
 }
 
@@ -51,13 +51,13 @@ body {
 	transition:background-color 1s;
 }
 
-.fa-user{
+.userIcon .fa-user{
 	color:white;
 	-webkit-transition: color 1s;
 	transition:color 1s;
 }
 
-.fa-user:hover{
+.userIcon .fa-user:hover{
 	color:#6DC2E9;
 	-webkit-transition: color 1s; 
 	transition:color 1s;
