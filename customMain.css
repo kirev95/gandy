@@ -21,7 +21,7 @@ body {
 .userName{
 	color:white;
 }
-.userName:hover,.username:active{
+.userName:hover,.userName:active{
 	color:white;
 }
 
@@ -54,13 +54,14 @@ body {
 	transition:background-color 1s;
 }
 
-.fa-user{
+
+.userIcon .fa-user{
 	color:white;
 	-webkit-transition: color 1s;
 	transition:color 1s;
 }
 
-.fa-user:hover{
+.userIcon .fa-user:hover{
 	color:#6DC2E9;
 	-webkit-transition: color 1s; 
 	transition:color 1s;
@@ -72,6 +73,7 @@ body {
 	float:left;
     margin:10px;
 }
+
 .outer-container{
 	margin-top:100px;
 	height:500px;
@@ -106,6 +108,8 @@ body {
 	top:200px;
 
 }
+
+
 div#table-design-right>table{
 	background-color: #6D686B;
 	color:white;
@@ -132,28 +136,30 @@ hr{
 }
 
 /* Horizontal bars for users*/
+
 li {
     float: left;
     border-radius: 5px;
     margin-right:5px;
 }
+
 #clearLeftGroup{
 	clear:both;
 }
 
 
-.form-group{
+.main-form-group{
 	padding-top:10px;
 	width: 400px;
 
 }
 
-.form-group, h4{
+.main-form-group, .new-milestone-header{
 margin-left: auto;
 margin-right: auto;
 }
 
-h4{
+.new-milestone-header{
 	text-align: center;
 	padding-top: 20px;
 }
