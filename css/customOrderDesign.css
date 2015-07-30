@@ -1,0 +1,33 @@
+#design-shop{
+	position: relative;
+	top:100px;
+	background-color:#F1F1F1;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+
+hr{
+  border-radius: 5px;
+  border-bottom: 3px solid #C1CDC1;
+  border-top: 3px solid #838B83;
+}
+
+label{
+	font-weight: lighter;
+	font-size:20px;
+	border-bottom: 3px solid #6D686B;
+	margin-bottom: 15px;
+}
+
+.thumbnail{
+	border:1px solid #C1CDC1;
+	background-color:none;
+	-webkit-transition: background-color 2s; 
+	transition:background-color 2s;
+}
+.thumbnail:hover{
+	background-color:#6DC2E9;
+	-webkit-transition: background-color 2s; 
+	transition:background-color 2s;
+}
