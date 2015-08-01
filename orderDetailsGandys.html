@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Homepage</title>
+    <title>Order details</title>
     
     <!-- This is link to Font-Awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -23,6 +23,7 @@
     
     <link rel="stylesheet" href="css/customOrderDetails.css">
     <link rel="stylesheet" href="css/customDesignDetails.css">
+    <link rel="stylesheet" href="css/theme.css">
 
     <!-- Editable fields library CSS & JS -->
      <!-- x-editable (bootstrap version) -->
@@ -34,6 +35,35 @@
   </head>
 
   <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-color">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbar-toggle-border-color" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="userDetails">
+              <span title="Click here to open user settings" class="fa-stack fa-2x userIcon">
+                <i class="fa fa-circle fa-stack-2x userIcon-circle"></i>
+                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="userName">Mark</span>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Create design">Create design</a></li>
+            <li><a href="#Order design">Order design</a></li>
+            <li><a href="#Messages">Messages</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     <div class="container order-details">
       <h2>Order details</h2>           
       <table class="table table-hover">
@@ -82,7 +112,7 @@
             <td>
             </td>
             <td>
-              <button type="button" class="btn btn-primary">
+              <button type="button" class="btn btn-primary orderDetailsButtons">
                       <i class="fa fa-repeat">&nbsp; Update</i>
                     </button>
             </td>
