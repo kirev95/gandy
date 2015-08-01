@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Homepage</title>
+    
+    <!-- This is link to Font-Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap & JQuery - Core libraries come first -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Custom -->
+    
+    <link rel="stylesheet" href="css/customOrderDetails.css">
+    <link rel="stylesheet" href="css/customDesignDetails.css">
+
+    <!-- Editable fields library CSS & JS -->
+     <!-- x-editable (bootstrap version) -->
+    <link href="bower_components\bs-editable\bootstrap3-editable\css\bootstrap-editable.css" rel="stylesheet"/>
+    <script src="bower_components\bs-editable\bootstrap3-editable\js\bootstrap-editable.min.js"></script>
+
+    <!-- Editable fields activation JS -->
+    <script src="js/mainEditable.js"></script>
+  </head>
+
+  <body>
+    <div class="container order-details">
+      <h2>Order details</h2>           
+      <table class="table table-hover">
+        <thead>
+        </thead>
+        <tbody>
+          <tr>
+            <td><h4><i class="fa fa-tag fa-fw"></i>&nbsp; Reference Number </h4></td>
+            <td>
+              <p class="list-group-item-text editable" href="#" id="username"
+                       data-type="text" data-placement="right" data-title="Enter username" title="Click to edit."> ASK11398V </p>
+            </td>
+          </tr>
+          <tr>
+            <td><h4><i class="fa fa-sort-numeric-asc fa-fw"></i>&nbsp; Size breakdown </h4></label></td>
+            <td>
+              <p class="list-group-item-text editable" href="#" id="username"
+                       data-type="text" data-placement="right" data-title="Enter username" title="Click to edit."> 50-S / 50-M </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td><h4><i class="fa fa-list-ol"></i>&nbsp; Quantity </h4></td>
+            <td>
+              <p class="list-group-item-text editable" href="#" id="username"
+                       data-type="text" data-placement="right" data-title="Enter username" title="Click to edit."> 100 </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td><h4><i class="fa fa-file-image-o"></i>&nbsp; Artwork status </h4></td>
+            <td>
+              <p class="list-group-item-text editable" href="#" id="username"
+                       data-type="text" data-placement="right" data-title="Enter username" title="Click to edit."> Received </p>
+            </td>
+          </tr>
+          <tr>
+            <td><h4><i class="fa fa-calendar fa-fw"></i>&nbsp; Fullfilment date </h4></label></td>
+            <td>
+              <p class="list-group-item-text editable" href="#" id="username"
+                       data-type="text" data-placement="right" data-title="Enter username" title="Click to edit.">&nbsp;  DD\MM\YYYY</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary">
+                      <i class="fa fa-repeat">&nbsp; Update</i>
+                    </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Comment from Create Design page -->
+      <div class="row comment">
+        <div class="col-md-12">
+          <div class="col-md-9  commentWall">
+            <h4><i class="fa fa-comments fa-fw"></i>&nbsp; Comments</h4>
+            <div class="enterCommentCard">
+              <div class="enterCommentBody">
+                <div class="thumbnail thumbnailChange">
+                    <img src="..." alt="...">
+                </div>
+                <div class="box">
+                  <form>
+                    <input type="text" class="form-control" id="enteredComment" placeholder="Write a comment...">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
