@@ -1,0 +1,44 @@
+#loginIcon {
+	text-align: center;
+}
+
+#logo{
+	width: 350px;
+	height: 150px;
+}
+
+#username, #password {
+	margin-bottom: 10px;
+}
+
+.header{
+	text-align: center;
+}
+
+.logincard {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card {
+	width: 300px;
+	padding: 40px 40px;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.signin {
+	margin-top: 12px;
+}
+
+.icon-wrapper{
+	color:grey;
+    text-align: center;
+}
+
+.center-block{
+	float:none;
+}

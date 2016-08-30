@@ -1,0 +1,33 @@
+.userSetting {
+	top: 50px;
+	position: relative;
+}
+
+.userSettingTitle {
+	border-bottom: 1px solid #dedede;
+    color: #333333;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 46px;
+    position: relative;
+}
+
+.formFormat {
+	margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.uploadedPic {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+#profilePic {
+    margin-left: 30%;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Design Details</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is link to Font-Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/customCreateDesign.css">
+    <link rel="stylesheet" href="css/customDesignDetails.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+   
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-color">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbar-toggle-border-color" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="userDetails">
+              <span title="Click here to open user settings" class="fa-stack fa-2x userIcon">
+                <i class="fa fa-circle fa-stack-2x userIcon-circle"></i>
+                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="userName">Mark</span>
+          </div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Create design">Create design</a></li>
+            <li><a href="#Order design">Order design</a></li>
+            <li><a href="#Messages">Messages</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container designForm">
+      <!-- Design form -->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <form class="form">
+            <div class="formFormat">
+
+              <h4 class="referNum"><i class="fa fa-tag fa-fw"></i>&nbsp; Reference Number: AD19311FA19</h4>
+
+              <div class="col-md-4">
+                <h4><i class="fa fa-eyedropper fa-fw"></i>&nbsp; Pantone colour</h4>
+                <div class="form-group">
+                  <label for="strap">Strap</label>
+                  <input type="text" class="form-control" id="strap" placeholder="e.g. 100 C">
+                </div>
+                <div class="form-group">
+                  <label for="logoOnStrap">Logo on the strap</label>
+                  <input type="text" class="form-control" id="logoOnStrap" placeholder="e.g. 100 C">
+                </div>
+                <div class="form-group">
+                  <label for="gandysLogoOnSole">Gandys logo on the sole</label>
+                  <input type="text" class="form-control" id="gandysLogoOnSole" placeholder="e.g. 100 C">
+                </div>
+                <div class="form-group">
+                  <label for="flipFlopSole">Flip-flop sole</label>
+                  <input type="text" class="form-control" id="flipFlopSole" placeholder="e.g. 100 C">
+                </div>
+                <div class="form-group">
+                  <label for="Flip-flop undersole pattern">Flip-flop undersole pattern</label>
+                  <input type="text" class="form-control" id="Flip-flop undersole pattern" placeholder="e.g. 100 C">
+                </div>
+
+                <div id="dynamicColours">
+                  <label>More colours</label>
+                  <!-- HTML for dynamic colour input -->
+                </div>
+
+                <button type="button" class="btn btn-success addField">
+                  <i class="fa fa-plus plusIcon">&nbsp; Add colour</i>
+                </button>
+
+              </div>
+
+              <div class="col-md-1"></div>
+
+              <div class="col-md-4">
+                <h4><i class="fa fa-font fa-fw"></i>&nbsp; Stamps &amp Font</h4>
+                <div class="form-group">
+                  <label for="fontName">Font Name</label>
+                  <input type="text" class="form-control" id="fontName" placeholder="e.g. Arial">
+                </div>
+                <div class="checkbox checkboxCreateDesignPage">
+                  <label for="sizeStamp">Size Stamp</label>
+                  <input type="checkbox" id="sizeStamp">
+                </div>
+                <div class="checkbox checkboxCreateDesignPage withBottomBorder">
+                  <label for="countryStamp">Country of origin stamp</label>
+                  <input type="checkbox" id="countryStamp">
+                </div>
+
+                <h4><i class="fa fa-file-image-o fa-fw"></i>&nbsp; CAD Design</h4>
+                <div class="form-group">
+                  <input type="file" id="profilePic">
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary createButton">Save</button>
+          </form>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <!-- Comment -->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="col-md-9  commentWall">
+            <h4><i class="fa fa-comments fa-fw"></i>&nbsp; Comments</h4>
+            <div class="enterCommentCard">
+              <div class="enterCommentBody">
+                <div class="thumbnail thumbnailChange">
+                    <img src="..." alt="...">
+                </div>
+                <div class="box">
+                  <form>
+                    <input type="text" class="form-control" id="enteredComment" placeholder="Write a comment...">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/customCreateDesign.js"></script>
+  </body>
+</html>

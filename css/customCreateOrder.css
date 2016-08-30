@@ -1,0 +1,20 @@
+.createOrder {
+	top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.createOrderTitle {
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+.longLabel {
+	display: inline;
+}
